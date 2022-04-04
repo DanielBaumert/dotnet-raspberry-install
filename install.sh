@@ -4,9 +4,9 @@
 mkdir /opt/dotnet
 
 # donwload and install
-wget https://download.visualstudio.microsoft.com/download/pr/726e260e-ce94-46c3-a169-57b2ebf5433d/5fb2a00b04b3509a0a6db63e302523a8/dotnet-sdk-5.0.102-linux-arm.tar.gz
-tar zxf /opt/dotnet/dotnet-sdk-5.0.102-linux-arm.tar.gz -C /opt/dotnet
-rm /opt/dotnet/dotnet-sdk-5.0.102-linux-arm.tar.gz
+wget https://download.visualstudio.microsoft.com/download/pr/33c6e1e3-e81f-44e8-9de8-91934fba3c94/9105f95a9e37cda6bd0c33651be2b90a/dotnet-sdk-6.0.201-linux-arm64.tar.gz
+tar zxf ./dotnet-sdk-6.0.201-linux-arm64.tar.gz -C /opt/dotnet
+rm ./dotnet-sdk-6.0.201-linux-arm64.tar.gz
 
 # export to env
 echo "export DOTNET_ROOT=/opt/dotnet" >> /etc/profile
